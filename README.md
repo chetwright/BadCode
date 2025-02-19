@@ -1,0 +1,2 @@
+This breaks rules inlcuding, but not limited to: the use of "magic numbers", the use of poor class names, poor variable names with random rules and extensive abbreviations, very little white space, poor bracing,
+lack of comments and documentation, comments which are unnecessary and useless, unnecessarily complicated logical operators and branches, inconsistent "magic number" constants (changes between files in constant name), 
