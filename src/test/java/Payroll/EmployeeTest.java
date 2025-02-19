@@ -6,30 +6,30 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class EmployeeTest {
-	HourlyWorker H;
-	SalariedEmp S;
-	Contractor C;
-	HourlyWorker O;
+	B H;
+	D S;
+	C C;
+	B O;
 	@BeforeEach
 	void setUp() throws Exception 
 	{
-		H = new HourlyWorker("James",10);
-		S = new SalariedEmp("Joyce",45);
-		C = new Contractor("Ulysses",39);
-		O = new HourlyWorker("OTMaster",50);
+		H = new B("James",10);
+		S = new D("Joyce",45);
+		C = new C("Ulysses",39);
+		O = new B("OTMaster",50);
 	}
 
 	@Test
 	void testPayroll() 
 	{
-		H.setHours(9);
-		S.setHours(6);
-		C.setHours(12);
-		O.setHours(50);
-		assertEquals(H.calcPay(),90.0);
-		assertEquals(S.calcPay(),1800);
-		assertEquals(C.calcPay(),468);
-		assertEquals(O.calcPay(),2750);
+		H.s0000000(9);
+		S.s0000000(6);
+		C.s0000000(12);
+		O.s0000000(50);
+		assertEquals(H.c00(),90.0);
+		assertEquals(S.c00(),1800);
+		assertEquals(C.c00(),468);
+		assertEquals(O.c00(),2750);
 		
 	}
 	
